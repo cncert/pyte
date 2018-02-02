@@ -40,7 +40,7 @@ if __debug__:
     def dis(chars):
         """A :func:`dis.dis` for terminals.
 
-        >>> dis(b"\x07")       # doctest: +NORMALIZE_WHITESPACE
+        >>> dis(b"\x07")       # doctest: +NORMALIZE_WHITESPACE  我问为这里的>>>需要去掉
         ["bell", [], {}]
         >>> dis(b"\x1b[20m")   # doctest: +NORMALIZE_WHITESPACE
         ["select_graphic_rendition", [20], {}]
